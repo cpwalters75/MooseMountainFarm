@@ -1,5 +1,5 @@
 html {
-  font-size: 62.5%; /* 16px x 62.5 = 10px = 1rem */
+  font-size: 62.5%; 
   box-sizing: border-box;
 }
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 #root {
-  height: 100%;
+height: 100%;
 }
 /* Layout */
 .grid-container {
@@ -104,4 +104,7 @@ img.medium {
 .rating span {
   color: #f0c040;
   margin: 0.1rem;
+}
+.rating span:last-child {
+  color: #404040;
 }
