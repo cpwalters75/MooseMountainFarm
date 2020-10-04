@@ -1,0 +1,24 @@
+{
+  "name": "moosemountainfarm",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpwalters75/MooseMountainFarm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpwalters75/MooseMountainFarm/issues"
+  },
+  "homepage": "https://github.com/cpwalters75/MooseMountainFarm#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}
