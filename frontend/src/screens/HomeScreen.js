@@ -3,9 +3,9 @@ import React, { useEffect } from 'react';
 import Product from '../components/Product';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
-import { useSelector } from 'react-redux';
+import {useDispatch, useSelector } from 'react-redux';
 import { listProducts } from '../actions/productActions';
-import { useDispatch } from 'react-redux';
+
 
 
 export default function HomeScreen() {
@@ -14,7 +14,7 @@ export default function HomeScreen() {
     const {loading, error, products} = productList;
   useEffect(() =>{
     dispatch(listProducts());
-  }, [])
+  }, [dispatch])
     return (
         <div>
           {loading ? (<LoadingBox></LoadingBox>)
